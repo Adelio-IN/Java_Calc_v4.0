@@ -24,8 +24,13 @@ public class Main {
 
         ScientificCalculator scientificCalc = new ScientificCalculator();
 
+
         scientificCalc.setNumbers(5, 2);
         scientificCalc.involution();
         scientificCalc.displayResult("^");
+
+        scientificCalc.setNumbers(3, 0);
+        scientificCalc.factorial();
+        scientificCalc.displayResult("!");
     }
 }
