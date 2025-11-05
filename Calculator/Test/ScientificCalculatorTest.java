@@ -15,4 +15,11 @@ class ScientificCalculatorTest {
     void involution() {
         assertEquals(25, scientificCalculator.involution());
     }
+
+    @Test
+    void factorial() {
+        scientificCalculator.setNumbers(3, 0);
+        assertEquals(6, scientificCalculator.factorial());
+    }
+
 }
